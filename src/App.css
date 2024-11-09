@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(222, 26%, 31%);
+    font-family: 'League Spartan', sans-serif;
+}
+.box {
+    width: 500px;
+    height: 640px;
+    margin: 100px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.digits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 0;
+}
+.lol {
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px hsl(35, 11%, 61%);
+    background-color: hsl(45, 7%, 89%);
+    font-size: 25px;
+    font-weight: bold;
+}
+.buttons {
+    margin-bottom: 0;
+    border-radius: 8px;
+    background-color: hsl(223, 31%, 20%);
+    border: none;
+}
+.display {
+    height: 250px;
+    margin: auto;
+    width: 440px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: hsl(224, 36%, 15%);
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+.digits {
+    border-radius: 20px;
+    padding: 20px;
+}
+.big-but {
+    height: 70px;
+    width: 220px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    margin-top: 0;
+    box-shadow: 0 5px hsl(35, 11%, 61%);
+    background-color: hsl(45, 7%, 89%);
+    font-size: 25px;
+    font-weight: bold;
+}
+.lowerPart {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: bold;
+}
+.theme {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
